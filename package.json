@@ -1,7 +1,7 @@
 {
   "name": "css-properties-values",
   "version": "1.0.0",
-  "description": "list of css properties and their values",
+  "description": "JSON list of css properties and their values",
   "website": "https://github.com/a-axton/css-properties-values",
   "repository": {
     "type": "git",
