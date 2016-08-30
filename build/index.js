@@ -79,20 +79,20 @@ class Versions {
     }
 }
 Versions.css2 = new Version("css22", ["css22"]);
-Versions.css3 = new Version("css3", ["css-inline-3"]);
+Versions.css3 = new Version("css3", ["css-inline-3", "css-counter-styles-3"]);
 class Runner {
     static main() {
         Runner
             .getIndexProperties().then((props) => {
             var cssProperties = props
-                .filter(Runner.belongsTo.bind(null, [Versions.css2]))
+                .filter(Runner.belongsTo.bind(null, [Versions.css2, Versions.css3]))
                 .map((indexProperty) => {
                 return Runner.getValues(indexProperty).then((values) => {
                     return new CssProperty(indexProperty.name, indexProperty.version, values);
                 });
             });
             return Promise.all(cssProperties).then((props) => {
-                props.forEach((p) => console.log(p.name, "belongs to", p.version.name, ", values: ", p.values.join(', ')));
+                console.log(JSON.stringify(props, null, 2));
             });
         }).catch(console.log.bind(console));
     }
