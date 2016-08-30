@@ -48,6 +48,30 @@ class IndexProperty{
     }
 }
 
+class SpecValue{
+    public static createFromElement($el:cheerio.Cheerio):Array<string>{
+        var items = $el.html().split('|')
+        // TODO parse the value string, treat it either as: 
+        // literal: no parenthesis, just words. use text as value 
+        // token: anchor present, store link. use text as value
+
+        var values = items.map((value) => {
+            if(SpecValue.isLiteral(value)){
+                value = value.replace(/\s/g, "")
+            }
+            return value
+        })
+        
+        return values
+    }
+
+    public static isLiteral(value:string){
+        return value.match(/^\s*\w\s*/g)
+    }
+}
+
+
+
 import * as cheerio from "cheerio"
 import * as got from "got"
 
@@ -69,7 +93,7 @@ class Runner {
         Runner
             .getIndexProperties().then((props) => {
                 var cssProperties = props
-                    .filter(Runner.belongsTo.bind(null, [Versions.css2, Versions.css3]))
+                    .filter(Runner.belongsTo.bind(null, [Versions.css2]))
                     .map((indexProperty) => {
                         return Runner.getValues(indexProperty).then((values)=>{
                             return new CssProperty(indexProperty.name, indexProperty.version, values)
@@ -111,8 +135,11 @@ class Runner {
                     $defTable = $idDefs.parents(".def.propdef")
                 }
                 
-                var values = $defTable.find("tr:nth-child(2)>td:last-child").text().split('|');
-                values = values.map((s) => { return s.replace(/\s/g, "") });
+                var valueCells = $defTable.find("tr:nth-child(2)>td:last-child");
+                var values:Array<string> = [];
+                valueCells.each((_, cell) => {
+                    values.push(...SpecValue.createFromElement($doc(cell)))
+                })
                 res(values);
             }).catch(rej)
         })

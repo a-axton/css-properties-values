@@ -1,31 +1,10 @@
 /*
-    version => {
-        name:string // e.g. css22, css-inilne-3, css-align-3
-        subversions:[version*]
-    }
-
-    property => {
-        name:string,
-        css-version:css3, // ignore 2.1 (mostly a subset of 2.2)
-        values: [literal*,token*,valdef*]
-    }
-
     token => {
         value:string // border-width, length, color (resolvable to only literals)
     }
 
     literal => {
         name:string // inherit, block etc
-    }
-
-    rawProperty => {
-        name:string
-        links:[string+]
-    }
-
-    rawValues => {
-        literals:[string+]
-        links:[string+]
     }
 */
 "use strict";
@@ -68,8 +47,25 @@ class IndexProperty {
                 }
             }
         }
-        //console.log("unknown ref:" + href)
         return new Version("unknown", [href]);
+    }
+}
+class SpecValue {
+    static createFromElement($el) {
+        var items = $el.html().split('|');
+        // TODO parse the value string, treat it either as: 
+        // literal: no parenthesis, just words. use text as value 
+        // token: anchor present, store link. use text as value
+        var values = items.map((value) => {
+            if (SpecValue.isLiteral(value)) {
+                value = value.replace(/\s/g, "");
+            }
+            return value;
+        });
+        return values;
+    }
+    static isLiteral(value) {
+        return value.match(/^\s*\w\s*/g);
     }
 }
 const cheerio = require("cheerio");
@@ -89,7 +85,7 @@ class Runner {
         Runner
             .getIndexProperties().then((props) => {
             var cssProperties = props
-                .filter(Runner.belongsTo.bind(null, [Versions.css2, Versions.css3]))
+                .filter(Runner.belongsTo.bind(null, [Versions.css2]))
                 .map((indexProperty) => {
                 return Runner.getValues(indexProperty).then((values) => {
                     return new CssProperty(indexProperty.name, indexProperty.version, values);
@@ -128,8 +124,11 @@ class Runner {
                 else if ($idDefs.length > 0) {
                     $defTable = $idDefs.parents(".def.propdef");
                 }
-                var values = $defTable.find("tr:nth-child(2)>td:last-child").text().split('|');
-                values = values.map((s) => { return s.replace(/\s/g, ""); });
+                var valueCells = $defTable.find("tr:nth-child(2)>td:last-child");
+                var values = [];
+                valueCells.each((_, cell) => {
+                    values.push(...SpecValue.createFromElement($doc(cell)));
+                });
                 res(values);
             }).catch(rej);
         });
