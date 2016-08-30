@@ -52,24 +52,44 @@ class IndexProperty {
 }
 class SpecValue {
     static createFromElement($el) {
-        var items = $el.html().split('|');
+        var items = $el.get(0).childNodes
+            .filter(($child) => {
+            return ($child.attribs && $child.attribs["data-link-type"]) ? $child.attribs["data-link-type"].toLowerCase() !== "grammar" : true;
+        })
+            .filter(($child) => {
+            var skip = ["[", "]", "|", "[[", "]]", "||", "]|", "[|", ""];
+            return $child.type === "text" ? skip.indexOf($child.nodeValue.replace(/\s/g, "")) === -1 : true;
+        });
         // TODO parse the value string, treat it either as: 
         // literal: no parenthesis, just words. use text as value 
         // token: anchor present, store link. use text as value
-        var values = items.map((value) => {
-            if (SpecValue.isLiteral(value)) {
-                value = value.replace(/\s/g, "");
-            }
-            return value;
+        var values = [];
+        items.forEach((item) => {
+            var literals = SpecValue.extractLiterals(item);
+            values.push(...literals);
+            var tokens = SpecValue.extractTokens(item);
+            values.push(...tokens);
         });
         return values;
     }
-    static isLiteral(value) {
-        return value.match(/^\s*\w\s*/g);
+    static extractLiterals(el) {
+        if (el.type === "text") {
+            return el.nodeValue.split(/[|\[?\]]/).map((s) => s.trim()).filter(String);
+        }
+        return [];
+    }
+    static extractTokens(el) {
+        if (el.type === "tag" && el.name === "a") {
+            var html = cheerioStatic.html(el);
+            var $a = cheerio.load(html);
+            return [html];
+        }
+        return [];
     }
 }
 const cheerio = require("cheerio");
 const got = require("got");
+const cheerioStatic = require("cheerio/lib/static");
 class Versions {
     static all() {
         return [

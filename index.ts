@@ -49,31 +49,49 @@ class IndexProperty{
 }
 
 class SpecValue{
-    public static createFromElement($el:cheerio.Cheerio):Array<string>{
-        var items = $el.html().split('|')
-        // TODO parse the value string, treat it either as: 
-        // literal: no parenthesis, just words. use text as value 
-        // token: anchor present, store link. use text as value
+    public static createFromElement($el:cheerio.Cheerio):Array<any>{
+        var items = $el.get(0).childNodes
+        .filter(($child:cheerio.Element)=>{
+            return ($child.attribs && $child.attribs["data-link-type"]) ? $child.attribs["data-link-type"].toLowerCase() !== "grammar" : true
+        })
+        .filter(($child:cheerio.Element)=>{
+            var skip = ["[", "]", "|", "[[", "]]", "||", "]|", "[|", ""]
+            return $child.type === "text" ? skip.indexOf($child.nodeValue.replace(/\s/g, "")) === -1 : true
+        })
+        // TODO improve token parsing
+        var values = [];
+        items.forEach((item) => {
+            var literals = SpecValue.extractLiterals(item)
+            values.push(...literals)
 
-        var values = items.map((value) => {
-            if(SpecValue.isLiteral(value)){
-                value = value.replace(/\s/g, "")
-            }
-            return value
+            var tokens = SpecValue.extractTokens(item)
+            values.push(...tokens)
         })
         
         return values
     }
 
-    public static isLiteral(value:string){
-        return value.match(/^\s*\w\s*/g)
+    public static extractLiterals(el:cheerio.Element):Array<string>{
+        if(el.type === "text"){
+           return el.nodeValue.split(/[|\[?\]]/).map((s) => s.trim()).filter(String)
+        }
+        return []
+    }
+
+    public static extractTokens(el:cheerio.Element):Array<string>{
+        if(el.type === "tag" && el.name === "a"){
+            var html = cheerioStatic.html(el)
+            var $a = cheerio.load(html)
+            return [html]
+        }
+        return []
     }
 }
 
 
-
 import * as cheerio from "cheerio"
 import * as got from "got"
+import * as cheerioStatic from "cheerio/lib/static"
 
 class Versions {
     public static css2 = new Version("css22", ["css22"])
@@ -115,7 +133,6 @@ class Runner {
                     let props = IndexProperty.createFromElement($doc(prop))
                     indexProperties.push(...props)
                 })
-                //console.log(indexProperties.slice(0, 10))
                 res(indexProperties)
             }).catch(rej)
         })

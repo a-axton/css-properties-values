@@ -1,0 +1,1894 @@
+[
+  {
+    "name": "alignment-baseline",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "baseline",
+      null,
+      "alphabetic",
+      "ideographic",
+      "middle",
+      "central",
+      "mathematical",
+      null,
+      "bottom",
+      "center",
+      "top"
+    ]
+  },
+  {
+    "name": "azimuth",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-angle\">&lt;angle&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"propinst-background-color\">&lt;&apos;background-color&apos;&gt;</span>",
+      "<span class=\"propinst-background-image\">&lt;&apos;background-image&apos;&gt;</span>",
+      "<span class=\"propinst-background-repeat\">&lt;&apos;background-repeat&apos;&gt;</span>",
+      "<span class=\"propinst-background-attachment\">&lt;&apos;background-attachment&apos;&gt;</span>",
+      "<span class=\"propinst-background-position\">&lt;&apos;background-position&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background-attachment",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "scroll",
+      "fixed",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "transparent",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background-image",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background-position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      null,
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "background-repeat",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "baseline-shift",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "&lt;length&gt;",
+      "&lt;percentage&gt;",
+      "sub",
+      "super"
+    ]
+  },
+  {
+    "name": "border",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-bottom-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "transparent",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-bottom-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-bottom-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-collapse",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "collapse",
+      "separate",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-left-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "transparent",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-left-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-left-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-right-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "transparent",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-right-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-right-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-top-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "transparent",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-top-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-top-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "border-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "caption-side",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "top",
+      "bottom",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "clear",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "none",
+      "left",
+      "right",
+      "both",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "clip",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-shape\">&lt;shape&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "content",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "<span class=\"value-inst-counter\">&lt;counter&gt;</span>",
+      null,
+      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "counter-increment",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "counter-reset",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "cue",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"propinst-cue-before\">&lt;&apos;cue-before&apos;&gt;</span>",
+      "<span class=\"propinst-cue-after\">&lt;&apos;cue-after&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "cue-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "cue-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "cursor",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "direction",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "ltr",
+      "rtl",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "display",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "static",
+      "relative",
+      "absolute",
+      "fixed",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "left",
+      "right",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "none",
+      "left",
+      "right",
+      "both",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "auto",
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "ltr",
+      "rtl",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "dominant-baseline",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "auto",
+      null,
+      "alphabetic",
+      "ideographic",
+      "middle",
+      "central",
+      "mathematical",
+      "hanging",
+      null
+    ]
+  },
+  {
+    "name": "elevation",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-angle\">&lt;angle&gt;</span>",
+      "below",
+      "level",
+      "above",
+      "higher",
+      "lower",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "empty-cells",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "show",
+      "hide",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "float",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "left",
+      "right",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span>",
+      "<span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span>",
+      "<span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font-family",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-family-name\">&lt;family-name&gt;</span>",
+      "<span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span>",
+      null,
+      "<span class=\"value-inst-family-name\">&lt;family-name&gt;</span>",
+      "<span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "normal",
+      "italic",
+      "oblique",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "normal",
+      "bold",
+      "bolder",
+      "lighter",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span>",
+      "<span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      null,
+      "<span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span>",
+      "<span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span>",
+      "<span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span>",
+      null,
+      "<span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font-size",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span>",
+      "<span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "italic",
+      "oblique",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font-variant",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "font-weight",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "bold",
+      "bolder",
+      "lighter",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "initial-letter",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "normal",
+      "&lt;number&gt;",
+      "&lt;integer&gt;"
+    ]
+  },
+  {
+    "name": "initial-letter-align",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      null,
+      null,
+      "ideographic",
+      "hebrew",
+      null,
+      null
+    ]
+  },
+  {
+    "name": "initial-letter-wrap",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "none",
+      "first",
+      "all",
+      "grid",
+      "&lt;length&gt;",
+      "&lt;percentage&gt;"
+    ]
+  },
+  {
+    "name": "left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "letter-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "line-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "list-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"propinst-list-style-type\">&lt;&apos;list-style-type&apos;&gt;</span>",
+      "<span class=\"propinst-list-style-position\">&lt;&apos;list-style-position&apos;&gt;</span>",
+      "<span class=\"propinst-list-style-image\">&lt;&apos;list-style-image&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "list-style-image",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "list-style-position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "inside",
+      "outside",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "list-style-type",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "margin",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "margin-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "margin-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "margin-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "margin-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "max-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "max-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "min-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "min-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "orphans",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "outline",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"propinst-outline-color\">&lt;&apos;outline-color&apos;&gt;</span>",
+      "<span class=\"propinst-outline-style\">&lt;&apos;outline-style&apos;&gt;</span>",
+      "<span class=\"propinst-outline-width\">&lt;&apos;outline-width&apos;&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "outline-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "invert",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "outline-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "outline-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "overflow",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "padding",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "padding-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "padding-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "padding-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "padding-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "page-break-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "page-break-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "page-break-inside",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "avoid",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "pause",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "pause-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "pause-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "pitch",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-frequency\">&lt;frequency&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "pitch-range",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "play-during",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "quotes",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
+      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "richness",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "speak",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "speak-header",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "once",
+      "always",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "speak-numeral",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "digits",
+      "continuous",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "speak-punctuation",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "code",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "speech-rate",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "stress",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "table-layout",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "fixed",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "text-align",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "left",
+      "right",
+      "center",
+      "justify",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "text-decoration",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "text-indent",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "text-transform",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "unicode-bidi",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "vertical-align",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "&lt;&#x2018;baseline-shift&#x2019;&gt;",
+      "&lt;&#x2018;alignment-baseline&#x2019;&gt;"
+    ]
+  },
+  {
+    "name": "vertical-align",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "visibility",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "visible",
+      "hidden",
+      "collapse",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "voice-family",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      null,
+      "<span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span>",
+      "<span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span>",
+      null,
+      "<span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span>",
+      "<span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "volume",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "white-space",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "left",
+      "right",
+      "center",
+      "justify",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "normal",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "normal",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "none",
+      "<span class=\"value-inst-inherit\">inherit</span>",
+      null,
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "widows",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "auto",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "word-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  },
+  {
+    "name": "z-index",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
+      "<span class=\"value-inst-inherit\">inherit</span>"
+    ]
+  }
+]
