@@ -1,5 +1,56 @@
 'use strict';
 
+
+/*
+    version:{
+        name:string // e.g. css22, css-inilne-3, css-align-3
+        subversions:[version*]
+    }
+
+    property => {
+        name:string,
+        css-version:css3, // ignore 2.1 (mostly a subset of 2.2)
+        values: [literal*,token*,valdef*]
+    }
+
+    token => {
+        value:string // border-width, length, color (resolvable to only literals)
+    }
+
+    literal => {
+        name:string // inherit, block etc
+    }
+
+    rawProperty => {
+        name:string
+        links:[string+]
+    }
+
+    rawValues => {
+        literals:[string+]
+        links:[string+]
+    }
+
+main(){
+    props = getProperties().filter(belongsTo(css22, css3))
+    resolvedProps = props.map(createProperty)
+}
+
+getProperties(){
+    var url = https://drafts.csswg.org/indexes/#properties
+    return parse(url).find('li').map(createRawProperty)
+}
+
+createProperty(rawProp){
+    return new Property(rawProp.name, rawProp.links.map(createValues))
+}
+
+createValues(link){
+    return getLiterals(link)
+}
+
+*/
+
 const fs = require('fs');
 const cheerio = require('cheerio');
 const got = require('got');
