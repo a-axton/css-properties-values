@@ -1,14 +1,4 @@
 
-/*
-    token => {
-        value:string // border-width, length, color (resolvable to only literals)
-    }
-
-    literal => {
-        name:string // inherit, block etc
-    }
-*/
-
 class Version{
     constructor(public name:string, public specNames:Array<string>){
     }
@@ -88,6 +78,7 @@ class SpecValue{
     }
 }
 
+// ---------------
 
 import * as cheerio from "cheerio"
 import * as got from "got"
