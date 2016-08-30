@@ -1,3 +1,35 @@
+
+/*
+    version:{
+        name:string // e.g. css22, css-inilne-3, css-align-3
+        subversions:[version*]
+    }
+
+    property => {
+        name:string,
+        css-version:css3, // ignore 2.1 (mostly a subset of 2.2)
+        values: [literal*,token*,valdef*]
+    }
+
+    token => {
+        value:string // border-width, length, color (resolvable to only literals)
+    }
+
+    literal => {
+        name:string // inherit, block etc
+    }
+
+    rawProperty => {
+        name:string
+        links:[string+]
+    }
+
+    rawValues => {
+        literals:[string+]
+        links:[string+]
+    }
+*/
+
 class Version{
     constructor(public name:string, public specNames:Array<string>){
     }
