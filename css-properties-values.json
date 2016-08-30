@@ -10,13 +10,13 @@
     },
     "values": [
       "baseline",
-      null,
+      "text-bottom",
       "alphabetic",
       "ideographic",
       "middle",
       "central",
       "mathematical",
-      null,
+      "text-top",
       "bottom",
       "center",
       "top"
@@ -31,9 +31,20 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-angle\">&lt;angle&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-angle\" class=\"noxref\"><span class=\"value-inst-angle\">&lt;angle&gt;</span></a>",
+      "left-side",
+      "far-left",
+      "left",
+      "center-left",
+      "center",
+      "center-right",
+      "right",
+      "far-right",
+      "right-side",
+      "behind",
+      "leftwards",
+      "rightwards",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -45,12 +56,12 @@
       ]
     },
     "values": [
-      "<span class=\"propinst-background-color\">&lt;&apos;background-color&apos;&gt;</span>",
-      "<span class=\"propinst-background-image\">&lt;&apos;background-image&apos;&gt;</span>",
-      "<span class=\"propinst-background-repeat\">&lt;&apos;background-repeat&apos;&gt;</span>",
-      "<span class=\"propinst-background-attachment\">&lt;&apos;background-attachment&apos;&gt;</span>",
-      "<span class=\"propinst-background-position\">&lt;&apos;background-position&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"colors.html#propdef-background-color\" class=\"noxref\"><span class=\"propinst-background-color\">&lt;&apos;background-color&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-image\" class=\"noxref\"><span class=\"propinst-background-image\">&lt;&apos;background-image&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-repeat\" class=\"noxref\"><span class=\"propinst-background-repeat\">&lt;&apos;background-repeat&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-attachment\" class=\"noxref\"><span class=\"propinst-background-attachment\">&lt;&apos;background-attachment&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-position\" class=\"noxref\"><span class=\"propinst-background-position\">&lt;&apos;background-position&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -64,7 +75,7 @@
     "values": [
       "scroll",
       "fixed",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -76,9 +87,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "transparent",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -90,9 +101,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -104,14 +115,23 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      null,
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "left",
+      "center",
+      "right",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "top",
+      "center",
+      "bottom",
+      "left",
+      "center",
+      "right",
+      "top",
+      "center",
+      "bottom",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -123,8 +143,11 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "repeat",
+      "repeat-x",
+      "repeat-y",
+      "no-repeat",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -137,8 +160,8 @@
       ]
     },
     "values": [
-      "&lt;length&gt;",
-      "&lt;percentage&gt;",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#length-value\" title=\"Expands to: em | advance measure | vb | ch | vmin | cm | pc | pixel unit | vi | in | rem | q | vh | ex | pt | vw | vmax | ic | mm\">&lt;length&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#percentage-value\">&lt;percentage&gt;</a>",
       "sub",
       "super"
     ]
@@ -152,10 +175,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -167,10 +190,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -182,9 +205,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "transparent",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -196,8 +219,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -209,8 +232,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -224,7 +247,7 @@
     "values": [
       "collapse",
       "separate",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -236,9 +259,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -250,10 +274,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -265,9 +289,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "transparent",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -279,8 +303,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -292,8 +316,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -305,10 +329,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -320,9 +344,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "transparent",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -334,8 +358,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -347,8 +371,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -360,10 +384,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -375,9 +398,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -389,10 +412,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -404,9 +427,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "transparent",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -418,8 +441,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -431,8 +454,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -444,9 +467,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -458,10 +481,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -475,7 +498,7 @@
     "values": [
       "top",
       "bottom",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -491,7 +514,7 @@
       "left",
       "right",
       "both",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -503,9 +526,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-shape\">&lt;shape&gt;</span>",
+      "<a href=\"visufx.html#value-def-shape\" class=\"noxref\"><span class=\"value-inst-shape\">&lt;shape&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -517,8 +540,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -530,14 +553,20 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
-      "<span class=\"value-inst-counter\">&lt;counter&gt;</span>",
-      null,
-      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "normal",
+      "none",
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-counter\" class=\"noxref\"><span class=\"value-inst-counter\">&lt;counter&gt;</span></a>",
+      "attr(",
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      ")",
+      "open-quote",
+      "close-quote",
+      "no-open-quote",
+      "no-close-quote",
+      "+",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -549,10 +578,11 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -564,10 +594,11 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-identifier\">&lt;identifier&gt;</span>",
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -579,9 +610,9 @@
       ]
     },
     "values": [
-      "<span class=\"propinst-cue-before\">&lt;&apos;cue-before&apos;&gt;</span>",
-      "<span class=\"propinst-cue-after\">&lt;&apos;cue-after&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#propdef-cue-before\" class=\"noxref\"><span class=\"propinst-cue-before\">&lt;&apos;cue-before&apos;&gt;</span></a>",
+      "<a href=\"aural.html#propdef-cue-after\" class=\"noxref\"><span class=\"propinst-cue-after\">&lt;&apos;cue-after&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -593,9 +624,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -607,9 +638,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -621,10 +652,27 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      ",",
+      "*",
+      "auto",
+      "crosshair",
+      "default",
+      "pointer",
+      "move",
+      "e-resize",
+      "ne-resize",
+      "nw-resize",
+      "n-resize",
+      "se-resize",
+      "sw-resize",
+      "s-resize",
+      "w-resize",
+      "text",
+      "wait",
+      "help",
+      "progress",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -638,7 +686,7 @@
     "values": [
       "ltr",
       "rtl",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -650,46 +698,62 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "inline",
+      "block",
+      "list-item",
+      "inline-block",
+      "table",
+      "inline-table",
+      "table-row-group",
+      "table-header-group",
+      "table-footer-group",
+      "table-row",
+      "table-column-group",
+      "table-column",
+      "table-cell",
+      "table-caption",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "static",
       "relative",
       "absolute",
       "fixed",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "left",
       "right",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "none",
       "left",
       "right",
       "both",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "auto",
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "ltr",
       "rtl",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "embed",
+      "bidi-override",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -703,14 +767,14 @@
     },
     "values": [
       "auto",
-      null,
+      "text-bottom",
       "alphabetic",
       "ideographic",
       "middle",
       "central",
       "mathematical",
       "hanging",
-      null
+      "text-top"
     ]
   },
   {
@@ -722,13 +786,13 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-angle\">&lt;angle&gt;</span>",
+      "<a href=\"aural.html#value-def-angle\" class=\"noxref\"><span class=\"value-inst-angle\">&lt;angle&gt;</span></a>",
       "below",
       "level",
       "above",
       "higher",
       "lower",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -742,7 +806,7 @@
     "values": [
       "show",
       "hide",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -757,7 +821,7 @@
       "left",
       "right",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -769,18 +833,20 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span>",
-      "<span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span>",
-      "<span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"fonts.html#propdef-font-style\" class=\"noxref\"><span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-variant\" class=\"noxref\"><span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-weight\" class=\"noxref\"><span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-size\" class=\"noxref\"><span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span></a>",
+      "/",
+      "<a href=\"visudet.html#propdef-line-height\" class=\"noxref\"><span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-family\" class=\"noxref\"><span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span></a>",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -792,20 +858,20 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-family-name\">&lt;family-name&gt;</span>",
-      "<span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span>",
-      null,
-      "<span class=\"value-inst-family-name\">&lt;family-name&gt;</span>",
-      "<span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"fonts.html#value-def-family-name\" class=\"noxref\"><span class=\"value-inst-family-name\">&lt;family-name&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-generic-family\" class=\"noxref\"><span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span></a>",
+      ",",
+      "<a href=\"fonts.html#value-def-family-name\" class=\"noxref\"><span class=\"value-inst-family-name\">&lt;family-name&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-generic-family\" class=\"noxref\"><span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span></a>",
+      "*",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "normal",
       "italic",
       "oblique",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "small-caps",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "normal",
       "bold",
       "bolder",
@@ -819,24 +885,26 @@
       "700",
       "800",
       "900",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      "<span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span>",
-      "<span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      null,
-      "<span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span>",
-      "<span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span>",
-      "<span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span>",
-      null,
-      "<span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"fonts.html#value-def-absolute-size\" class=\"noxref\"><span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-relative-size\" class=\"noxref\"><span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"fonts.html#propdef-font-style\" class=\"noxref\"><span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-variant\" class=\"noxref\"><span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-weight\" class=\"noxref\"><span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-size\" class=\"noxref\"><span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span></a>",
+      "/",
+      "<a href=\"visudet.html#propdef-line-height\" class=\"noxref\"><span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-family\" class=\"noxref\"><span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span></a>",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -848,11 +916,11 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span>",
-      "<span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"fonts.html#value-def-absolute-size\" class=\"noxref\"><span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-relative-size\" class=\"noxref\"><span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -867,7 +935,7 @@
       "normal",
       "italic",
       "oblique",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -879,8 +947,9 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "normal",
+      "small-caps",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -905,7 +974,7 @@
       "700",
       "800",
       "900",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -917,10 +986,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -934,8 +1003,8 @@
     },
     "values": [
       "normal",
-      "&lt;number&gt;",
-      "&lt;integer&gt;"
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#number-value\">&lt;number&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#integer-value\">&lt;integer&gt;</a>"
     ]
   },
   {
@@ -948,12 +1017,12 @@
       ]
     },
     "values": [
-      null,
-      null,
+      "border-box",
+      "alphabetic",
       "ideographic",
       "hebrew",
-      null,
-      null
+      "hanging",
+      "border-box"
     ]
   },
   {
@@ -970,8 +1039,8 @@
       "first",
       "all",
       "grid",
-      "&lt;length&gt;",
-      "&lt;percentage&gt;"
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#length-value\" title=\"Expands to: em | advance measure | vb | ch | vmin | cm | pc | pixel unit | vi | in | rem | q | vh | ex | pt | vw | vmax | ic | mm\">&lt;length&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#percentage-value\">&lt;percentage&gt;</a>"
     ]
   },
   {
@@ -983,10 +1052,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -999,8 +1068,8 @@
     },
     "values": [
       "normal",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1013,10 +1082,10 @@
     },
     "values": [
       "normal",
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1028,10 +1097,10 @@
       ]
     },
     "values": [
-      "<span class=\"propinst-list-style-type\">&lt;&apos;list-style-type&apos;&gt;</span>",
-      "<span class=\"propinst-list-style-position\">&lt;&apos;list-style-position&apos;&gt;</span>",
-      "<span class=\"propinst-list-style-image\">&lt;&apos;list-style-image&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"generate.html#propdef-list-style-type\" class=\"noxref\"><span class=\"propinst-list-style-type\">&lt;&apos;list-style-type&apos;&gt;</span></a>",
+      "<a href=\"generate.html#propdef-list-style-position\" class=\"noxref\"><span class=\"propinst-list-style-position\">&lt;&apos;list-style-position&apos;&gt;</span></a>",
+      "<a href=\"generate.html#propdef-list-style-image\" class=\"noxref\"><span class=\"propinst-list-style-image\">&lt;&apos;list-style-image&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1043,9 +1112,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1059,7 +1128,7 @@
     "values": [
       "inside",
       "outside",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1071,8 +1140,22 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "disc",
+      "circle",
+      "square",
+      "decimal",
+      "decimal-leading-zero",
+      "lower-roman",
+      "upper-roman",
+      "lower-greek",
+      "lower-latin",
+      "upper-latin",
+      "armenian",
+      "georgian",
+      "lower-alpha",
+      "upper-alpha",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1084,9 +1167,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1098,8 +1181,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1111,8 +1194,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1124,8 +1207,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1137,8 +1220,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1150,10 +1233,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1165,10 +1248,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1180,9 +1263,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1194,9 +1277,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1208,8 +1291,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1221,10 +1304,10 @@
       ]
     },
     "values": [
-      "<span class=\"propinst-outline-color\">&lt;&apos;outline-color&apos;&gt;</span>",
-      "<span class=\"propinst-outline-style\">&lt;&apos;outline-style&apos;&gt;</span>",
-      "<span class=\"propinst-outline-width\">&lt;&apos;outline-width&apos;&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"ui.html#propdef-outline-color\" class=\"noxref\"><span class=\"propinst-outline-color\">&lt;&apos;outline-color&apos;&gt;</span></a>",
+      "<a href=\"ui.html#propdef-outline-style\" class=\"noxref\"><span class=\"propinst-outline-style\">&lt;&apos;outline-style&apos;&gt;</span></a>",
+      "<a href=\"ui.html#propdef-outline-width\" class=\"noxref\"><span class=\"propinst-outline-width\">&lt;&apos;outline-width&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1236,9 +1319,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-color\">&lt;color&gt;</span>",
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
       "invert",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1250,8 +1333,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-style\">&lt;border-style&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1263,8 +1346,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-border-width\">&lt;border-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1280,7 +1363,7 @@
       "hidden",
       "scroll",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1292,9 +1375,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1306,8 +1389,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1319,8 +1402,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1332,8 +1415,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1345,8 +1428,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1363,7 +1446,7 @@
       "avoid",
       "left",
       "right",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1380,7 +1463,7 @@
       "avoid",
       "left",
       "right",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1394,7 +1477,7 @@
     "values": [
       "avoid",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1406,11 +1489,10 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "{1,2}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1422,9 +1504,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1436,9 +1518,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-time\">&lt;time&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1450,9 +1532,13 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-frequency\">&lt;frequency&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-frequency\" class=\"noxref\"><span class=\"value-inst-frequency\">&lt;frequency&gt;</span></a>",
+      "x-low",
+      "low",
+      "medium",
+      "high",
+      "x-high",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1464,8 +1550,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1477,9 +1563,12 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-uri\">&lt;uri&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "mix",
+      "repeat",
+      "auto",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1495,7 +1584,7 @@
       "relative",
       "absolute",
       "fixed",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1507,10 +1596,11 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
-      "<span class=\"value-inst-string\">&lt;string&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1522,8 +1612,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1535,10 +1625,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1550,8 +1640,10 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "normal",
+      "none",
+      "spell-out",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1565,7 +1657,7 @@
     "values": [
       "once",
       "always",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1579,7 +1671,7 @@
     "values": [
       "digits",
       "continuous",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1593,7 +1685,7 @@
     "values": [
       "code",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1605,9 +1697,15 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "x-slow",
+      "slow",
+      "medium",
+      "fast",
+      "x-fast",
+      "faster",
+      "slower",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1619,8 +1717,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1634,7 +1732,7 @@
     "values": [
       "auto",
       "fixed",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1650,7 +1748,7 @@
       "right",
       "center",
       "justify",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1662,8 +1760,12 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "none",
+      "underline",
+      "overline",
+      "line-through",
+      "blink",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1675,9 +1777,9 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1693,7 +1795,7 @@
       "uppercase",
       "lowercase",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1705,10 +1807,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1720,8 +1822,10 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "normal",
+      "embed",
+      "bidi-override",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1734,8 +1838,8 @@
       ]
     },
     "values": [
-      "&lt;&#x2018;baseline-shift&#x2019;&gt;",
-      "&lt;&#x2018;alignment-baseline&#x2019;&gt;"
+      "<a class=\"production\" data-link-type=\"propdesc\" href=\"#propdef-baseline-shift\" id=\"ref-for-propdef-baseline-shift-1\">&lt;&#x2018;baseline-shift&#x2019;&gt;</a>",
+      "<a class=\"production\" data-link-type=\"propdesc\" href=\"#propdef-alignment-baseline\" id=\"ref-for-propdef-alignment-baseline-1\">&lt;&#x2018;alignment-baseline&#x2019;&gt;</a>"
     ]
   },
   {
@@ -1747,10 +1851,17 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "baseline",
+      "sub",
+      "super",
+      "top",
+      "text-top",
+      "middle",
+      "bottom",
+      "text-bottom",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1765,7 +1876,7 @@
       "visible",
       "hidden",
       "collapse",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1777,13 +1888,13 @@
       ]
     },
     "values": [
-      null,
-      "<span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span>",
-      "<span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span>",
-      null,
-      "<span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span>",
-      "<span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"aural.html#value-def-specific-voice\" class=\"noxref\"><span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span></a>",
+      "<a href=\"aural.html#value-def-generic-voice\" class=\"noxref\"><span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span></a>",
+      ",",
+      "*",
+      "<a href=\"aural.html#value-def-specific-voice\" class=\"noxref\"><span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span></a>",
+      "<a href=\"aural.html#value-def-generic-voice\" class=\"noxref\"><span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1795,10 +1906,15 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-number\">&lt;number&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "silent",
+      "x-soft",
+      "soft",
+      "medium",
+      "loud",
+      "x-loud",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1810,29 +1926,37 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "left",
       "right",
       "center",
       "justify",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "none",
+      "underline",
+      "overline",
+      "line-through",
+      "blink",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "normal",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "normal",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
       "capitalize",
       "uppercase",
       "lowercase",
       "none",
-      "<span class=\"value-inst-inherit\">inherit</span>",
-      null,
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "pre",
+      "nowrap",
+      "pre-wrap",
+      "pre-line",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1844,8 +1968,8 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1857,10 +1981,10 @@
       ]
     },
     "values": [
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-percentage\">&lt;percentage&gt;</span>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
       "auto",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1873,8 +1997,8 @@
     },
     "values": [
       "normal",
-      "<span class=\"value-inst-length\">&lt;length&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   },
   {
@@ -1887,8 +2011,8 @@
     },
     "values": [
       "auto",
-      "<span class=\"value-inst-integer\">&lt;integer&gt;</span>",
-      "<span class=\"value-inst-inherit\">inherit</span>"
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
     ]
   }
 ]
