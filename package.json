@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/a-axton/css-properties-values/issues"
   },
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js"

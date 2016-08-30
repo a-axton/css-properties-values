@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cheerio": "registry:npm/cheerio#0.20.0+20160422172414",
+    "got": "registry:npm/got#6.3.0+20160524045608"
+  }
+}

@@ -1,1 +1,2018 @@
-[{"property":"box-decoration-break","values":null},{"property":"hyphens","values":null},{"property":"line-break","values":null},{"property":"overflow-wrap","values":null},{"property":"text-combine-upright","values":null},{"property":"text-underline-position","values":null},{"property":"@font-feature-values","values":null},{"property":"font-feature-settings","values":null},{"property":"font-kerning","values":null},{"property":"font-language-override","values":null},{"property":"font-synthesis","values":null},{"property":"font-variant-alternates","values":null},{"property":"font-variant-caps","values":null},{"property":"font-variant-east-asian","values":null},{"property":"font-variant-ligatures","values":null},{"property":"font-variant-numeric","values":null},{"property":"font-variant-position","values":null},{"property":"text-orientation","values":null},{"property":"text-combine-upright","values":null},{"property":"writing-mode","values":null},{"property":"ime-mode","values":null},{"property":"break-after","values":null},{"property":"break-before","values":null},{"property":"break-inside","values":null},{"property":"widows","values":null},{"property":"orphans","values":null},{"property":"marks","values":null},{"property":"image-orientation","values":null},{"property":"image-rendering","values":null},{"property":"image-resolution","values":null},{"property":"object-fit","values":null},{"property":"object-position","values":null},{"property":"mask","values":null},{"property":"mask-type","values":null},{"property":"mark","values":null},{"property":"mark-after","values":null},{"property":"mark-before","values":null},{"property":"phonemes","values":null},{"property":"rest","values":null},{"property":"rest-after","values":null},{"property":"rest-before","values":null},{"property":"voice-balance","values":null},{"property":"voice-duration","values":null},{"property":"voice-pitch","values":null},{"property":"voice-pitch-range","values":null},{"property":"voice-rate","values":null},{"property":"voice-stress","values":null},{"property":"voice-volume","values":null},{"property":"marquee-direction","values":null},{"property":"marquee-play-count","values":null},{"property":"marquee-speed","values":null},{"property":"marquee-style","values":null},{"property":"color","values":["color","initial","inherit"]},{"property":"opacity","values":["number","initial","inherit"]},{"property":"background-position","values":["left top\r\n      left center\r\n      left bottom\r\n      right top\r\n      right center\r\n      right bottom\r\n      center top\r\n      center center\r\n      center bottom","x% y%","xpos ypos","initial","inherit"]},{"property":"background-image","values":["url('URL')","none","initial","inherit"]},{"property":"background-color","values":["color","transparent","initial","inherit"]},{"property":"border","values":["border-width","border-style","border-color","initial","inherit"]},{"property":"word-wrap","values":["normal","break-word","initial","inherit"]},{"property":"direction","values":["ltr","rtl","initial","inherit"]},{"property":"unicode-bidi","values":["normal","embed","bidi-override","initial","inherit"]},{"property":"font-size","values":["medium","xx-small","x-small","small","large","x-large","xx-large","smaller","larger","length","%","initial","inherit"]},{"property":"text-decoration-line","values":["none","underline","overline","line-through","initial","inherit"]},{"property":"border-collapse","values":["separate","collapse","initial","inherit"]},{"property":"background-size","values":["auto","length","percentage"," cover"," contain","initial","inherit"]},{"property":"list-style-type","values":["disc","armenian","circle","cjk-ideographic","decimal","decimal-leading-zero","georgian","hebrew","hiragana","hiragana-iroha","katakana","katakana-iroha","lower-alpha","lower-greek","lower-latin","lower-roman","none","square","upper-alpha","upper-latin","upper-roman","initial","inherit"]},{"property":"@keyframes","values":["animationname","keyframes-selector","css-styles"]},{"property":"border-top-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"background-blend-mode","values":["normal","multiply","screen","overlay","darken","lighten","color-dodge","saturation","color","luminosity"]},{"property":"background-repeat","values":["repeat","repeat-x","repeat-y","no-repeat","initial","inherit"]},{"property":"background-clip","values":["border-box","padding-box","content-box","initial","inherit"]},{"property":"animation-direction","values":["normal","reverse","alternate","alternate-reverse","initial","inherit"]},{"property":"animation-duration","values":["time","initial","inherit"]},{"property":"counter-reset","values":["none","name","number","initial","inherit"]},{"property":"padding-left","values":["length","%","initial","inherit"]},{"property":"border-bottom-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"list-style","values":["list-style-type","list-style-position","list-style-image","initial","inherit"]},{"property":"counter-increment","values":["none","id number","initial","inherit"]},{"property":"align-self","values":["auto","stretch","center","flex-start","flex-end","baseline","initial","inherit"]},{"property":"min-height","values":["length","%","initial","inherit"]},{"property":"visibility","values":["visible","hidden","collapse","initial","inherit"]},{"property":"max-height","values":["none","length","%","initial","inherit"]},{"property":"position","values":["static","absolute","fixed","relative","initial","inherit"]},{"property":"border-left-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"border-image-outset","values":["length"," number","initial","inherit"]},{"property":"overflow-x","values":["visible","hidden","scroll","auto","initial","inherit"]},{"property":"border-left-color","values":["color","transparent","initial","inherit"]},{"property":"quotes","values":["none","string string string string","initial","inherit","","\"","'","‹","›","«","»","‘","’","“","”","„"]},{"property":"perspective-origin","values":["x-axis","y-axis","initial","inherit"]},{"property":"flex","values":["flex-grow","flex-shrink","flex-basis","auto","initial","none","inherit"]},{"property":"border-image","values":[" border-image-source"," border-image-slice"," border-image-width"," border-image-outset"," border-image-repeat","initial","inherit"]},{"property":"animation-delay","values":["time","initial","inherit"]},{"property":"border-color","values":["color","transparent","initial","inherit"]},{"property":"clear","values":["none","left","right","both","initial","inherit"]},{"property":"border-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"overflow\r\n    ","values":["visible","hidden","scroll","auto","initial","inherit"]},{"property":"column-rule-color","values":[" color","initial","inherit"]},{"property":"border-right-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"border-image-source","values":[" none"," image","initial","inherit"]},{"property":"background-attachment","values":["scroll","fixed","local","initial","inherit"]},{"property":"border-right","values":["border-right-width","border-right-style","border-right-color","initial","inherit"]},{"property":"margin-right","values":["length","%","auto","initial","inherit"]},{"property":"border-bottom","values":["border-bottom-width","border-bottom-style","border-bottom-color","initial","inherit"]},{"property":"border-right-color","values":["color","transparent","initial","inherit"]},{"property":"margin-top","values":["length","%","auto","initial","inherit"]},{"property":"border-radius","values":["length","%","initial","inherit"]},{"property":"max-width","values":["none","length","%","initial","inherit"]},{"property":"min-width","values":["length","%","initial","inherit"]},{"property":"z-index","values":["auto","number","initial","inherit"]},{"property":"border-bottom-left-radius","values":["length","%","initial","inherit"]},{"property":"text-transform","values":["none","capitalize","uppercase","lowercase","initial","inherit"]},{"property":"text-indent","values":["length","%","initial","inherit"]},{"property":"text-justify","values":["auto","inter-word","inter-ideograph","inter-cluster","distribute","kashida","trim","none","initial","inherit"]},{"property":"text-align","values":["left","right","center","justify","initial","inherit"]},{"property":"border-bottom-color","values":["color","transparent","initial","inherit"]},{"property":"background","values":["background-color","background-image","background-position","background-size","background-repeat","background-origin","background-clip","background-attachment","initial","inherit"]},{"property":"letter-spacing","values":["normal","length","initial","inherit"]},{"property":"align-items","values":["stretch","center","flex-start","flex-end","baseline","initial","inherit"]},{"property":"tab-size","values":["number","length","initial","inherit"]},{"property":"flex-wrap","values":["nowrap","wrap","wrap-reverse","initial","inherit"]},{"property":"flex-direction","values":["row","row-reverse","column","column-reverse","initial","inherit"]},{"property":"flex-basis","values":["number","auto","initial","inherit"]},{"property":"flex-shrink","values":["number","initial","inherit"]},{"property":"bottom","values":["auto","length","%","initial","inherit"]},{"property":"clip","values":["auto","shape","initial","inherit"]},{"property":"flex-grow","values":["number","initial","inherit"]},{"property":"font","values":["font-style","font-variant","font-weight","font-size/line-height","font-family","caption","icon","menu","message-box","small-caption","status-bar","initial","inherit"]},{"property":"margin-left","values":["length","%","auto","initial","inherit"]},{"property":"text-decoration-color","values":["color","initial","inherit"]},{"property":"border-bottom-right-radius","values":["length","%","initial","inherit"]},{"property":"list-style-position","values":["inside","outside","initial","inherit"]},{"property":"top","values":["auto","length","%","initial","inherit"]},{"property":"right","values":["auto","length","%","initial","inherit"]},{"property":"background-origin","values":["padding-box","border-box","content-box","initial","inherit"]},{"property":"table-layout","values":["auto","fixed","initial","inherit"]},{"property":"margin-bottom","values":["length","%","auto","initial","inherit"]},{"property":"padding-bottom","values":["length","%","initial","inherit"]},{"property":"border-image-slice","values":[" number"," %"," fill","initial","inherit"]},{"property":"flex-flow","values":["flex-direction","flex-wrap","initial","inherit"]},{"property":"float","values":["none","left","right","initial","inherit"]},{"property":"vertical-align","values":["baseline","length","%","sub","super","top","text-top","middle","bottom","text-bottom","initial","inherit"]},{"property":"padding-right","values":["length","%","initial","inherit"]},{"property":"width","values":["auto","length","%","initial","inherit"]},{"property":"align-content","values":["stretch","center","flex-start","flex-end","space-between","space-around","initial","inherit"]},{"property":"padding","values":["length","%","initial","inherit"]},{"property":"hanging-punctuation","values":["none","first","last","allow-end","force-end","initial","inherit"]},{"property":"border-bottom-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"border-left-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"text-align-last","values":["auto","left","right","center","justify","start","end","initial","inherit"]},{"property":"order","values":["number","initial","inherit"]},{"property":"border-top-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"border-top-color","values":["color","transparent","initial","inherit"]},{"property":"display","values":["inline","block","flex","inline-block","inline-flex","inline-table","list-item","run-in","table","table-caption","\r\n      table-column-group","table-header-group","table-footer-group","table-row-group","table-cell","table-column","table-row","none","initial","inherit"]},{"property":"left","values":["auto","length","%","initial","inherit"]},{"property":"border-top-left-radius","values":["length","%","initial","inherit"]},{"property":"margin","values":["length","%","auto","initial","inherit"]},{"property":"border-image-repeat","values":[" stretch"," repeat"," round","space","initial","inherit"]},{"property":"box-shadow","values":["none","h-shadow","v-shadow","blur","spread","color","inset","initial","inherit"]},{"property":"border-top-right-radius","values":["length","%","initial","inherit"]},{"property":"text-decoration-style","values":["solid","double","dotted","dashed","wavy","initial","inherit"]},{"property":"height","values":["auto","length","%","initial","inherit"]},{"property":"border-right-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"border-left","values":["border-left-width","border-left-style","border-left-color","initial","inherit"]},{"property":"border-image-width","values":["length","number","%","auto","initial","inherit"]},{"property":"font-family","values":["family-name\r\n      generic-family","initial","inherit"]},{"property":"border-top","values":["border-top-width","border-top-style","border-top-color","initial","inherit"]},{"property":"empty-cells","values":["show","hide","initial","inherit"]},{"property":"justify-content","values":["flex-start","flex-end","center","space-between","space-around","initial","inherit"]},{"property":"text-shadow","values":["h-shadow","v-shadow","blur-radius","color","none","initial","inherit"]},{"property":"overflow-y","values":["visible","hidden","scroll","auto","initial","inherit"]},{"property":"padding-top","values":["length","%","initial","inherit"]},{"property":"border-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"border-spacing","values":["length length","initial","inherit"]},{"property":"word-break","values":["normal","break-all","keep-all ","initial","inherit"]},{"property":"@font-face","values":["font-family","src","font-stretch","font-style","font-weight","unicode-range"]},{"property":"text-decoration","values":["none","underline","overline","line-through","initial","inherit"]},{"property":"white-space","values":["normal","nowrap","pre","pre-line","pre-wrap","initial","inherit"]},{"property":"font-size-adjust","values":["number","none","initial","inherit"]},{"property":"font-style","values":["normal","italic","oblique","initial","inherit"]},{"property":"line-height","values":["normal","number","length","%","initial","inherit"]},{"property":"font-weight","values":["normal","bold","bolder","lighter","100\r\n      200\r\n      300\r\n      400\r\n      500\r\n      600\r\n      700\r\n      800\r\n      900","initial","inherit"]},{"property":"word-spacing","values":["normal","length","initial","inherit"]},{"property":"page-break-after","values":["auto","always","avoid","left","right","initial","inherit"]},{"property":"outline-color","values":["invert","color","initial","inherit"]},{"property":"column-gap","values":["length","normal","initial","inherit"]},{"property":"column-rule","values":[" column-rule-width"," column-rule-style"," column-rule-color","initial","inherit"]},{"property":"columns","values":["auto","column-width","column-count","initial","inherit"]},{"property":"column-rule-style","values":[" none"," hidden"," dotted"," dashed"," solid"," double"," groove"," ridge"," inset"," outset","initial","inherit"]},{"property":"font-variant","values":["normal","small-caps","initial","inherit"]},{"property":"column-rule-width","values":[" medium"," thin"," thick"," length","initial","inherit"]},{"property":"cursor","values":["alias","all-scroll","auto","cell","context-menu","col-resize","copy","crosshair","default","e-resize","ew-resize","grab","grabbing","help","move","n-resize","ne-resize","nesw-resize","ns-resize","nw-resize","nwse-resize","no-drop","none","not-allowed","pointer","progress","row-resize","s-resize","se-resize","sw-resize","text","URL","vertical-text","w-resize","wait","zoom-in","zoom-out","initial","inherit"]},{"property":"column-fill","values":["balance","auto","initial","inherit"]},{"property":"animation-fill-mode","values":["none","forwards","backwards","both","initial","inherit"]},{"property":"nav-left","values":["auto","id","target-name","initial","inherit"]},{"property":"outline-width","values":["medium","thin","thick","length","initial","inherit"]},{"property":"nav-right","values":["auto","id","target-name","initial","inherit"]},{"property":"nav-up","values":["auto","id","target-name","initial","inherit"]},{"property":"nav-down","values":["auto","id","target-name","initial","inherit"]},{"property":"outline","values":["outline-color","outline-style","outline-width","initial","inherit"]},{"property":"animation","values":["animation-name","animation-duration","\r\n\tanimation-timing-function","animation-delay","\r\n\tanimation-iteration-count","animation-direction","animation-fill-mode","animation-play-state","initial","inherit"]},{"property":"nav-index","values":["auto","number","initial","inherit"]},{"property":"font-stretch","values":["ultra-condensed","extra-condensed","condensed","semi-condensed","normal","semi-expanded","expanded","extra-expanded","ultra-expanded","initial","inherit"]},{"property":"list-style-image","values":["none","url","initial","inherit"]},{"property":"transition-duration","values":["time","initial","inherit"]},{"property":"perspective","values":["length","none","initial","inherit"]},{"property":"animation-play-state","values":["paused","running","initial","inherit"]},{"property":"backface-visibility","values":["visible","hidden","initial","inherit"]},{"property":"column-count","values":["number","auto","initial","inherit"]},{"property":"transition-delay","values":["time","initial","inherit"]},{"property":"transform","values":["none","matrix(n,n,n,n,n,n)","matrix3d\r\n\t(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)","translate(x,y)","translate3d(x,y,z)","translateX(x)","translateY(y)","translateZ(z)","scale(x,y)","scale3d(x,y,z)","scaleX(x)","scaleY(y)","scaleZ(z)","rotate(angle)","rotate3d(x,y,z,angle)","rotateX(angle)","rotateY(angle)","rotateZ(angle)","skew(x-angle,y-angle)","skewX(angle)","skewY(angle)","perspective(n)","initial","inherit"]},{"property":"resize","values":[" none"," both"," horizontal"," vertical","initial","inherit"]},{"property":"text-overflow","values":["clip","ellipsis","string","initial","inherit"]},{"property":"caption-side","values":["top","bottom","initial","inherit"]},{"property":"filter","values":["none","blur(px)","brightness(%)","contrast(%)","drop-shadow(h-shadow v-shadow blur spread color)","grayscale(%)","hue-rotate(deg)","invert(%)","opacity(%)","saturate(%)","sepia(%)","url()","initial","inherit"]},{"property":"content","values":["normal","none","counter","attr(attribute)","string","open-quote","close-quote","no-open-quote","no-close-quote","url(url)","initial","inherit"]},{"property":"transition-timing-function","values":["ease","linear","ease-in","ease-out","ease-in-out","cubic-bezier(n,n,n,n)","initial","inherit"]},{"property":"box-sizing","values":[" content-box"," border-box","initial","inherit"]},{"property":"page-break-before","values":["auto","always","avoid","left","right","initial","inherit"]},{"property":"animation-timing-function","values":["linear","ease","ease-in","ease-out","ease-in-out","cubic-bezier(n,n,n,n)","initial","inherit"]},{"property":"outline-offset","values":[" length","initial","inherit"]},{"property":"column-width","values":["auto","length","initial","inherit"]},{"property":"outline-style","values":["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset","initial","inherit"]},{"property":"transform-origin","values":["x-axis","y-axis","z-axis","initial","inherit"]},{"property":"transform-style","values":["flat","preserve-3d","initial","inherit"]},{"property":"transition","values":["transition-property","transition-duration","transition-timing-function","transition-delay","initial","inherit"]},{"property":"page-break-inside","values":["auto","avoid","initial","inherit"]},{"property":"column-span","values":["1","all","initial","inherit"]},{"property":"transition-property","values":["none","all","property","initial","inherit"]},{"property":"animation-iteration-count","values":["number","infinite","initial","inherit"]},{"property":"animation-name","values":["keyframename","none","initial","inherit"]}]
+[
+  {
+    "name": "alignment-baseline",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "baseline",
+      "text-bottom",
+      "alphabetic",
+      "ideographic",
+      "middle",
+      "central",
+      "mathematical",
+      "text-top",
+      "bottom",
+      "center",
+      "top"
+    ]
+  },
+  {
+    "name": "azimuth",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-angle\" class=\"noxref\"><span class=\"value-inst-angle\">&lt;angle&gt;</span></a>",
+      "left-side",
+      "far-left",
+      "left",
+      "center-left",
+      "center",
+      "center-right",
+      "right",
+      "far-right",
+      "right-side",
+      "behind",
+      "leftwards",
+      "rightwards",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"colors.html#propdef-background-color\" class=\"noxref\"><span class=\"propinst-background-color\">&lt;&apos;background-color&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-image\" class=\"noxref\"><span class=\"propinst-background-image\">&lt;&apos;background-image&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-repeat\" class=\"noxref\"><span class=\"propinst-background-repeat\">&lt;&apos;background-repeat&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-attachment\" class=\"noxref\"><span class=\"propinst-background-attachment\">&lt;&apos;background-attachment&apos;&gt;</span></a>",
+      "<a href=\"colors.html#propdef-background-position\" class=\"noxref\"><span class=\"propinst-background-position\">&lt;&apos;background-position&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background-attachment",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "scroll",
+      "fixed",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background-image",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background-position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "left",
+      "center",
+      "right",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "top",
+      "center",
+      "bottom",
+      "left",
+      "center",
+      "right",
+      "top",
+      "center",
+      "bottom",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "background-repeat",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "repeat",
+      "repeat-x",
+      "repeat-y",
+      "no-repeat",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "baseline-shift",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#length-value\" title=\"Expands to: em | advance measure | vb | ch | vmin | cm | pc | pixel unit | vi | in | rem | q | vh | ex | pt | vw | vmax | ic | mm\">&lt;length&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#percentage-value\">&lt;percentage&gt;</a>",
+      "sub",
+      "super"
+    ]
+  },
+  {
+    "name": "border",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-bottom-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-bottom-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-bottom-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-collapse",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "collapse",
+      "separate",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-left-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-left-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-left-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-right-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-right-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-right-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"box.html#propdef-border-top-color\" class=\"noxref\"><span class=\"propinst-border-top-color\">&lt;&apos;border-top-color&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-top-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "transparent",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-top-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-top-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "border-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "caption-side",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "top",
+      "bottom",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "clear",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "none",
+      "left",
+      "right",
+      "both",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "clip",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"visufx.html#value-def-shape\" class=\"noxref\"><span class=\"value-inst-shape\">&lt;shape&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "content",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "none",
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-counter\" class=\"noxref\"><span class=\"value-inst-counter\">&lt;counter&gt;</span></a>",
+      "attr(",
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      ")",
+      "open-quote",
+      "close-quote",
+      "no-open-quote",
+      "no-close-quote",
+      "+",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "counter-increment",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "counter-reset",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-identifier\" class=\"noxref\"><span class=\"value-inst-identifier\">&lt;identifier&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "cue",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#propdef-cue-before\" class=\"noxref\"><span class=\"propinst-cue-before\">&lt;&apos;cue-before&apos;&gt;</span></a>",
+      "<a href=\"aural.html#propdef-cue-after\" class=\"noxref\"><span class=\"propinst-cue-after\">&lt;&apos;cue-after&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "cue-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "cue-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "cursor",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      ",",
+      "*",
+      "auto",
+      "crosshair",
+      "default",
+      "pointer",
+      "move",
+      "e-resize",
+      "ne-resize",
+      "nw-resize",
+      "n-resize",
+      "se-resize",
+      "sw-resize",
+      "s-resize",
+      "w-resize",
+      "text",
+      "wait",
+      "help",
+      "progress",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "direction",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "ltr",
+      "rtl",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "display",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "inline",
+      "block",
+      "list-item",
+      "inline-block",
+      "table",
+      "inline-table",
+      "table-row-group",
+      "table-header-group",
+      "table-footer-group",
+      "table-row",
+      "table-column-group",
+      "table-column",
+      "table-cell",
+      "table-caption",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "static",
+      "relative",
+      "absolute",
+      "fixed",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "left",
+      "right",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "none",
+      "left",
+      "right",
+      "both",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "auto",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "ltr",
+      "rtl",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "embed",
+      "bidi-override",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "dominant-baseline",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "auto",
+      "text-bottom",
+      "alphabetic",
+      "ideographic",
+      "middle",
+      "central",
+      "mathematical",
+      "hanging",
+      "text-top"
+    ]
+  },
+  {
+    "name": "elevation",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-angle\" class=\"noxref\"><span class=\"value-inst-angle\">&lt;angle&gt;</span></a>",
+      "below",
+      "level",
+      "above",
+      "higher",
+      "lower",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "empty-cells",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "show",
+      "hide",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "float",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "left",
+      "right",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"fonts.html#propdef-font-style\" class=\"noxref\"><span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-variant\" class=\"noxref\"><span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-weight\" class=\"noxref\"><span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-size\" class=\"noxref\"><span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span></a>",
+      "/",
+      "<a href=\"visudet.html#propdef-line-height\" class=\"noxref\"><span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-family\" class=\"noxref\"><span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span></a>",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font-family",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"fonts.html#value-def-family-name\" class=\"noxref\"><span class=\"value-inst-family-name\">&lt;family-name&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-generic-family\" class=\"noxref\"><span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span></a>",
+      ",",
+      "<a href=\"fonts.html#value-def-family-name\" class=\"noxref\"><span class=\"value-inst-family-name\">&lt;family-name&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-generic-family\" class=\"noxref\"><span class=\"value-inst-generic-family\">&lt;generic-family&gt;</span></a>",
+      "*",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "italic",
+      "oblique",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "small-caps",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "bold",
+      "bolder",
+      "lighter",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"fonts.html#value-def-absolute-size\" class=\"noxref\"><span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-relative-size\" class=\"noxref\"><span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "<a href=\"fonts.html#propdef-font-style\" class=\"noxref\"><span class=\"propinst-font-style\">&lt;&apos;font-style&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-variant\" class=\"noxref\"><span class=\"propinst-font-variant\">&lt;&apos;font-variant&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-weight\" class=\"noxref\"><span class=\"propinst-font-weight\">&lt;&apos;font-weight&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-size\" class=\"noxref\"><span class=\"propinst-font-size\">&lt;&apos;font-size&apos;&gt;</span></a>",
+      "/",
+      "<a href=\"visudet.html#propdef-line-height\" class=\"noxref\"><span class=\"propinst-line-height\">&lt;&apos;line-height&apos;&gt;</span></a>",
+      "<a href=\"fonts.html#propdef-font-family\" class=\"noxref\"><span class=\"propinst-font-family\">&lt;&apos;font-family&apos;&gt;</span></a>",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font-size",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"fonts.html#value-def-absolute-size\" class=\"noxref\"><span class=\"value-inst-absolute-size\">&lt;absolute-size&gt;</span></a>",
+      "<a href=\"fonts.html#value-def-relative-size\" class=\"noxref\"><span class=\"value-inst-relative-size\">&lt;relative-size&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "italic",
+      "oblique",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font-variant",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "small-caps",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "font-weight",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "bold",
+      "bolder",
+      "lighter",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "initial-letter",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "normal",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#number-value\">&lt;number&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#integer-value\">&lt;integer&gt;</a>"
+    ]
+  },
+  {
+    "name": "initial-letter-align",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "border-box",
+      "alphabetic",
+      "ideographic",
+      "hebrew",
+      "hanging",
+      "border-box"
+    ]
+  },
+  {
+    "name": "initial-letter-wrap",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "none",
+      "first",
+      "all",
+      "grid",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#length-value\" title=\"Expands to: em | advance measure | vb | ch | vmin | cm | pc | pixel unit | vi | in | rem | q | vh | ex | pt | vw | vmax | ic | mm\">&lt;length&gt;</a>",
+      "<a class=\"production css\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-values-3/#percentage-value\">&lt;percentage&gt;</a>"
+    ]
+  },
+  {
+    "name": "left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "letter-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "line-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "list-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"generate.html#propdef-list-style-type\" class=\"noxref\"><span class=\"propinst-list-style-type\">&lt;&apos;list-style-type&apos;&gt;</span></a>",
+      "<a href=\"generate.html#propdef-list-style-position\" class=\"noxref\"><span class=\"propinst-list-style-position\">&lt;&apos;list-style-position&apos;&gt;</span></a>",
+      "<a href=\"generate.html#propdef-list-style-image\" class=\"noxref\"><span class=\"propinst-list-style-image\">&lt;&apos;list-style-image&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "list-style-image",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "list-style-position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "inside",
+      "outside",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "list-style-type",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "disc",
+      "circle",
+      "square",
+      "decimal",
+      "decimal-leading-zero",
+      "lower-roman",
+      "upper-roman",
+      "lower-greek",
+      "lower-latin",
+      "upper-latin",
+      "armenian",
+      "georgian",
+      "lower-alpha",
+      "upper-alpha",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "margin",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "margin-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "margin-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "margin-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "margin-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-margin-width\" class=\"noxref\"><span class=\"value-inst-margin-width\">&lt;margin-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "max-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "max-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "min-height",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "min-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "orphans",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "outline",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"ui.html#propdef-outline-color\" class=\"noxref\"><span class=\"propinst-outline-color\">&lt;&apos;outline-color&apos;&gt;</span></a>",
+      "<a href=\"ui.html#propdef-outline-style\" class=\"noxref\"><span class=\"propinst-outline-style\">&lt;&apos;outline-style&apos;&gt;</span></a>",
+      "<a href=\"ui.html#propdef-outline-width\" class=\"noxref\"><span class=\"propinst-outline-width\">&lt;&apos;outline-width&apos;&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "outline-color",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-color\" class=\"noxref\"><span class=\"value-inst-color\">&lt;color&gt;</span></a>",
+      "invert",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "outline-style",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-style\" class=\"noxref\"><span class=\"value-inst-border-style\">&lt;border-style&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "outline-width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-border-width\" class=\"noxref\"><span class=\"value-inst-border-width\">&lt;border-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "overflow",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "padding",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "{1,4}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "padding-bottom",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "padding-left",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "padding-right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "padding-top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"box.html#value-def-padding-width\" class=\"noxref\"><span class=\"value-inst-padding-width\">&lt;padding-width&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "page-break-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "page-break-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "page-break-inside",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "avoid",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "pause",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "{1,2}",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "pause-after",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "pause-before",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-time\" class=\"noxref\"><span class=\"value-inst-time\">&lt;time&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "pitch",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-frequency\" class=\"noxref\"><span class=\"value-inst-frequency\">&lt;frequency&gt;</span></a>",
+      "x-low",
+      "low",
+      "medium",
+      "high",
+      "x-high",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "pitch-range",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "play-during",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-uri\" class=\"noxref\"><span class=\"value-inst-uri\">&lt;uri&gt;</span></a>",
+      "mix",
+      "repeat",
+      "auto",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "position",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "quotes",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-string\" class=\"noxref\"><span class=\"value-inst-string\">&lt;string&gt;</span></a>",
+      "+",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "richness",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "right",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "speak",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "none",
+      "spell-out",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "speak-header",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "once",
+      "always",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "speak-numeral",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "digits",
+      "continuous",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "speak-punctuation",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "code",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "speech-rate",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "x-slow",
+      "slow",
+      "medium",
+      "fast",
+      "x-fast",
+      "faster",
+      "slower",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "stress",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "table-layout",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "fixed",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "text-align",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "left",
+      "right",
+      "center",
+      "justify",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "text-decoration",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "none",
+      "underline",
+      "overline",
+      "line-through",
+      "blink",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "text-indent",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "text-transform",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "top",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "unicode-bidi",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "embed",
+      "bidi-override",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "vertical-align",
+    "version": {
+      "name": "css3",
+      "specNames": [
+        "css-inline-3",
+        "css-counter-styles-3"
+      ]
+    },
+    "values": [
+      "<a class=\"production\" data-link-type=\"propdesc\" href=\"#propdef-baseline-shift\" id=\"ref-for-propdef-baseline-shift-1\">&lt;&#x2018;baseline-shift&#x2019;&gt;</a>",
+      "<a class=\"production\" data-link-type=\"propdesc\" href=\"#propdef-alignment-baseline\" id=\"ref-for-propdef-alignment-baseline-1\">&lt;&#x2018;alignment-baseline&#x2019;&gt;</a>"
+    ]
+  },
+  {
+    "name": "vertical-align",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "baseline",
+      "sub",
+      "super",
+      "top",
+      "text-top",
+      "middle",
+      "bottom",
+      "text-bottom",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "visibility",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "visible",
+      "hidden",
+      "collapse",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "voice-family",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"aural.html#value-def-specific-voice\" class=\"noxref\"><span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span></a>",
+      "<a href=\"aural.html#value-def-generic-voice\" class=\"noxref\"><span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span></a>",
+      ",",
+      "*",
+      "<a href=\"aural.html#value-def-specific-voice\" class=\"noxref\"><span class=\"value-inst-specific-voice\">&lt;specific-voice&gt;</span></a>",
+      "<a href=\"aural.html#value-def-generic-voice\" class=\"noxref\"><span class=\"value-inst-generic-voice\">&lt;generic-voice&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "volume",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-number\" class=\"noxref\"><span class=\"value-inst-number\">&lt;number&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "silent",
+      "x-soft",
+      "soft",
+      "medium",
+      "loud",
+      "x-loud",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "white-space",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "left",
+      "right",
+      "center",
+      "justify",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "none",
+      "underline",
+      "overline",
+      "line-through",
+      "blink",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "none",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>",
+      "normal",
+      "pre",
+      "nowrap",
+      "pre-wrap",
+      "pre-line",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "widows",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "width",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"syndata.html#value-def-percentage\" class=\"noxref\"><span class=\"value-inst-percentage\">&lt;percentage&gt;</span></a>",
+      "auto",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "word-spacing",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "normal",
+      "<a href=\"syndata.html#value-def-length\" class=\"noxref\"><span class=\"value-inst-length\">&lt;length&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  },
+  {
+    "name": "z-index",
+    "version": {
+      "name": "css22",
+      "specNames": [
+        "css22"
+      ]
+    },
+    "values": [
+      "auto",
+      "<a href=\"syndata.html#value-def-integer\" class=\"noxref\"><span class=\"value-inst-integer\">&lt;integer&gt;</span></a>",
+      "<a href=\"cascade.html#value-def-inherit\" class=\"noxref\"><span class=\"value-inst-inherit\">inherit</span></a>"
+    ]
+  }
+]
