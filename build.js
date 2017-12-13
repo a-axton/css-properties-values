@@ -14,7 +14,7 @@ const getPropValues = (url) => {
     got(childUrl(url))
       .then(response => {
         let $child = cheerio.load(response.body);
-        let $rows = $child('.w3-table-all tr');
+        let $rows = $child('.w3-table-all.notranslate tr');
         let results = [];
 
         $rows.each((i, row) => {
@@ -31,21 +31,28 @@ const getPropValues = (url) => {
 };
 
 const saveResults = () => {
-  fs.writeFile('css-properties-values.json', JSON.stringify(results));
+  fs.writeFile('css-properties-values.json', JSON.stringify(results), function(err) {
+    if(err) throw err;
+    console.log('Saved!');
+  });
 }
 
 got(parentUrl)
   .then(response => {
     let $parent = cheerio.load(response.body);
-    let $rows = $parent('.w3-table-all tr');
+    let $rows = $parent('.w3-table-all.notranslate tr');
 
     each($rows.toArray(), (row, next) => {
       let $cols = $parent(row).find('td');
       let property = $cols.eq(0).text();
-      let childUrl = $parent(row).find('a').attr('href');
+      let childUrl = $parent(row).find('a').attr('href') || '';
+      if(childUrl.charAt() === '/') {
+        childUrl = childUrl.replace(/\/cssref\//, '');
+      }
+      console.log('childUrl', childUrl);
 
       // no prop, skip
-      if (!property.length) {
+      if (!property.length || !childUrl.length) {
         next();
       } else {
         if (childUrl) {
